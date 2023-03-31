@@ -1,0 +1,63 @@
+/* Global */
+body {
+    background-image: url("../images/background-image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #F6F6F6;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
+
+
+/* Navbar */
+
+.navbar {
+    background-color: #0078AA;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.navbar a{
+    color: #F6F6F6;
+}
+
+.title-container {
+    margin: auto;
+    padding-top: 7%;
+    width: 300px;
+}
+
+.content-container {
+    margin: auto;
+    padding-top: 7%;
+    text-align: right;
+    width: 400px;
+}
+
+.balance-container {
+    
+}
+
+.content-container button {
+    width: 130px;
+    margin-left: 5px;
+}
+
+.input-area label{
+    padding-top: 6px;
+}
+
+.input-area-container{
+    position: absolute;
+    right: 0;
+    width: 250px;
+}
+
+.input-area-container input, .input-area-container select {
+    text-align: right;
+}
