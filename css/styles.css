@@ -7,8 +7,46 @@ body {
 }
 
 footer {
-    position: absolute;
+    padding: 3% 15%;
+    text-align: center;
+    background-color: transparent;
+    position: relative;
     bottom: 0;
+    width: 100%;
+    color: white;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #0078AA;
+}
+
+footer p {
+    color: black;
+}
+
+.th-odd {
+    width: 50%;
+}
+
+.th-even {
+    text-align: right;
+}
+
+td {
+    text-align: left;
+}
+
+.td-even {
+    text-align: right;
+}
+
+.td-sum {
+    font-weight: bold;
 }
 
 
@@ -39,8 +77,20 @@ footer {
     width: 400px;
 }
 
+.date-container {
+    padding: 2%;
+    width: 370px;
+    float: right;
+    text-align: center;
+}
+
 .balance-container {
-    
+    margin-top: 100px;
+}
+
+.home-page-container {
+    padding: 7% 15%;
+    text-align: justify;
 }
 
 .content-container button {
@@ -50,12 +100,14 @@ footer {
 
 .input-area label{
     padding-top: 6px;
+    position: absolute;
+    left: 0;
 }
 
 .input-area-container{
     position: absolute;
     right: 0;
-    width: 250px;
+    width: 200px;
 }
 
 .input-area-container input, .input-area-container select {
